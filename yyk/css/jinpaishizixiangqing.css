@@ -1,0 +1,198 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-22 13:46:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-22 15:35:07
+*/
+*{
+	margin: 0 ;
+	padding: 0;
+	list-style:none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.91rem;
+	background: #0078e6;
+	position:fixed;
+}
+.headbot{
+	width: 100%;
+	height: 0.91rem;
+}
+.head-main{
+	width: 25%;
+	height: 0.91rem;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0.91rem;
+}
+.head-main img{
+	width: 0.71rem;
+	height: 0.67rem;
+	float: left;
+	margin-top: 0.12rem;
+}
+.head-main span{
+	font-size: 0.34rem;
+	color: #fff;
+	float: right;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+nav{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+main{
+	width: 93.6%;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav-zi{
+	font-size: 0.21rem;
+	color: #000;
+	float: left;
+	line-height: 0.82rem;
+}
+.gaishubj{
+	width: 100%;
+	height: 4.28rem;
+	background: #f5f6fa;
+	border-bottom: 0.2rem solid #f5f6fa;
+}
+.gaishuneirong{
+	width: 93.6%;
+	height: 4.08rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.gaishuheng{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.xiaolankuai{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.gaishuheng2{
+	width: 91.168%;
+	height:0.67rem;
+	border-bottom: 0.01rem dashed #999999;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 0.19rem;
+}
+.gaishuheng2 span{
+	font-size: 0.22rem;
+	color: #444444;
+	margin-top: 0.25rem;
+	display: block;
+}
+.photo{
+	width: 2.8rem;
+	height: 2.81rem;
+	margin-left: 0.42rem;
+	margin-top: 0.3rem;
+	border-radius: 10%;
+	float: left;
+}
+.photo img{
+	width: 2.8rem;
+	height: 2.81rem;
+	border-radius: 10%;
+}
+.xinxi{
+	width: 3.4rem;
+	height: 2.85rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.31rem;
+}
+.liuzhao{
+	font-size: 0.27rem;
+	color: #000;
+	margin-top: 0.2rem;
+	float: left;
+	font-weight: bolder;
+}
+.xingji{
+	font-size: 0.19rem;
+	color: #01b5ff;
+	float: left;
+	margin-top: 0.26rem;
+	margin-left: 0.08rem;
+}
+.xinxi2{
+	width: 100%;
+	height: 1.9rem;
+	margin-top: 0.9rem;
+
+}
+pre{
+	font-size: 0.24rem;
+	color: #000;
+	display: block;
+	margin-top: 0.2rem;
+	font-weight: bolder;
+	float: left;
+}
+h1{
+	font-size: 0.23rem;
+	margin-top: 0.21rem;
+	color: #000;
+	float: left;
+}
+.jiaoshijianjiebj{
+	width: 100%;
+	height: 4.84rem;
+	background: #f5f6fa;
+}
+.jiaoshijianjie{
+	width: 93.6%;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.jianjieneirong{
+	width: 91.168%;
+	height: 3.8rem;
+	margin: 0 auto;
+}
+p{
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.2rem;
+}
+.end{
+	width: 100%;
+	height: 1.21rem;
+	background: #f5f6fa;
+	text-align: center;
+	color: #666666;
+	font-size: 0.22rem;
+	overflow: hidden;
+}
+.copy{
+	display: block;
+	margin-top: 0.3rem
+}
+.lianxidianhua{
+	display: block;
+}

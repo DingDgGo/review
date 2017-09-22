@@ -1,0 +1,284 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-20 18:26:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-22 14:07:21
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+.headbot{
+	width: 100%;
+	height: 0.91rem;
+}
+.head-main{
+	width: 25%;
+	height: 100%;
+	margin: 0 auto;
+}
+.head-main img{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+	margin-top: 0.13rem;
+}
+.head-main span{
+	font-size: 0.34rem;
+	color: #fff;
+	float: right;
+	line-height: 0.92rem;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+nav{
+	width: 100%;
+	height: 4.81rem;
+	background: #f5f6fa;
+}
+.nav-top{
+	width: 100%;
+	height: 2.40rem;
+}
+.nav1{
+	width: 25%;
+	height: 2.40rem;
+	overflow: hidden;
+	float: left;
+}
+.nav1 img{
+	width: 1.55rem;
+	height: 1.55rem;
+	margin: 0 auto;
+	display: block;
+	margin-top: 0.29rem;
+}
+h1{
+	font-size: 0.22rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.17rem;
+}
+.nav1{
+	width: 25%;
+	height: 2.40rem;
+	overflow: hidden;
+	float: left;
+}
+.nav1 img{
+	width: 1.55rem;
+	height: 1.55rem;
+	margin: 0 auto;
+	display: block;
+	margin-top: 0.29rem;
+}
+.nav-bottom {
+	width: 100%;
+	height: 2.40rem;
+}
+.fuwu{
+	width: 100%;
+	height: 0.64rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.64rem;
+	color: #0377bc;
+	font-size: 0.21rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwuneirong{
+	width: 100%;
+	height: 2.19rem;
+}
+.fuwu-top1{
+	width: 50%;
+	height: 2.19rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+h2{
+	font-size: 0.22rem;
+	color: #000;
+	margin-top: 0.36rem;
+	margin-left: 0.16rem;
+	float: left;
+}
+.fuwuimg1{
+	width: 1.9rem;
+	height: 2.17rem;
+	float: right;
+}
+.fuwu-top2{
+	width: 50%;
+	height: 2.19rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+h3{
+	font-size: 0.2rem;
+	color: #999999;
+	float: left;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.8rem;
+}
+.fuwuimg2{
+	width: 1.6rem;
+	height: 1.5rem;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+	float: right;
+}
+.fuwu-mid{
+	width: 100%;
+	height: 1.39rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwu-mid1{
+	width: 33.3333%;
+	height: 1.39rem;
+	float: left;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwu-mid1 img{
+	float: left;
+	width: 0.8rem;
+	height: 1.38rem;
+}
+h4{
+	font-size: 0.22rem;
+	color: #000;
+	margin-left: 0.2rem;
+	margin-top: 0.39rem;
+	float: left;
+}
+h5{
+	font-size: 0.08rem;
+	color: #999999;
+	margin-left: 0.22rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.fuwu-mid2{
+	width: 33.3333%;
+	height: 1.39rem;
+	float: left;
+	border-right: 0.01rem solid #e8e8e8;
+	/* box-sizing: border-box; */
+}
+.fuwu-mid2 img{
+	float: left;
+	width: 0.8rem;
+	height: 1.38rem;
+}
+.fuwu-mid3{
+	width: 33%;
+	height: 1.39rem;
+	float: left;
+}
+.fuwu-mid3 img{
+	width: 0.8rem;
+	height: 1.38rem;
+	float: left;
+}
+.bottom{
+	background: #f5f6fa;
+	width: 100%;
+	height: 1.4rem;
+	overflow: hidden;
+}
+.botmid{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.bot-orange{
+	width: 2.37rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	background: #ff7e00;
+	border-radius: 10%;
+	box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(255, 126, 0, 0.5);
+}
+.bot-orange img{
+	width: 0.34rem;
+	height: 0.8rem;
+	margin-left: 0.4rem;
+	float: left;
+}
+.bot-orange span{
+	font-size: 0.24rem;
+	color: #fff;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.28rem;
+}
+.bot-left{
+	width: 25.33%;
+	height: 0.8rem;
+	float: left;
+	position: absolute;
+	left: 0.2rem;
+	top: 0;
+}
+.bot-left img{
+	width: 0.31rem;
+	height: 0.31rem;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.24rem;
+}
+.bot-left span{
+	font-size: 0.23rem;
+	color: #000;
+	margin-top: 0.28rem;
+	margin-left: 0.13rem;
+	float: left;
+}
+.bot-right{
+	width: 28.33%;
+	height: 0.8rem;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.bot-right img{
+	width: 0.31rem;
+	height: 0.31rem;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.24rem;
+}
+.bot-right span{
+	font-size: 0.23rem;
+	color: #000;
+	margin-top: 0.28rem;
+	margin-left: 0.13rem;
+	float: left;
+}
