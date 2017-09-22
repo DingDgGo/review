@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 380911 */
+  src: url('https://at.alicdn.com/t/font_380911_pkfrfs2l9lxiggb9.eot');
+  src: url('https://at.alicdn.com/t/font_380911_pkfrfs2l9lxiggb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_380911_pkfrfs2l9lxiggb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_380911_pkfrfs2l9lxiggb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_380911_pkfrfs2l9lxiggb9.svg#iconfont') format('svg');
+}
+#iconfont-video{
+	font-family: "iconfont";
+}
+.iconfont-weixin{
+	font-family: "iconfont";
+	font-size: 30px;
+	color: limegreen;
+}
+.iconfont-qq{
+	font-family: "iconfont";
+	font-size: 27px;
+	color: #62A8EA;
+}
+.iconfont-emall{
+	font-family: "iconfont";
+	font-size: 30px;
+	/*color: deepskyblue;*/
+	color: #62A8EA;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	position: fixed;
+	z-index: 999;
+	transition: .5s;
+	box-shadow: 0 1px 3px #CCCCCC;
+}
+.head-bj{
+	width: 100%;
+	height: 80px;
+	z-index: 999;
+	background: #fff;
+	z-index: 998;
+}
+main{
+	width:90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: auto;
+	height: 80px;
+	float: right;
+}
+.title li{
+	width: 70px;
+	float: left;
+	padding-right: 10px;
+	line-height: 80px;
+	font-size: 12px;
+	text-align: center;
+}
+.title>li>a{
+	padding: 34px 0;
+	color: #000;
+}
+#lasta{
+	font-size: 12px;
+	color: #16b0dc;
+}
+.works{
+	position: relative;
+}
+.works:hover .nonebox{
+	display: block;
+}
+.nonebox{
+	width: 90px;
+	height: auto;
+	background-color: rgba(248, 248, 248, 0.8);
+	position: absolute;
+	top: 80px;
+	left:0;
+	display: none;	
+}
+.nonebox>a>ol{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #e5dfdf;
+	text-align: center;
+	line-height: 40px;
+	color: #000000;
+	font-size: 12px;
+}
+
+.nonebox>a>ol:last-child{
+	border-bottom: 0;
+}
+.nonebox>a>ol:hover{
+	color: #62A8EA;
+}
+/*内容*/
+.LYbox{
+	width: 100%;
+	height: auto;
+	min-height: 1200px;
+	background: #f1f1f1;
+	padding-bottom:30px ;
+}
+.art-top{
+	width: 100%;
+	height: 58px;
+	padding-top: 63px;
+	padding-bottom:50px ;
+}
+.art-text1{
+	width: 224px;
+	height: 35px;
+	margin:0 auto;
+	font-size:35px;
+	color: #F67A82;
+	font-family: "黑体";
+	text-align: center;
+}
+dl{
+	width: 70%;
+	height: auto;
+	float: left;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+dt{
+	width: 100%;
+	height: 30px;
+	background: #FAFAFA;
+	border-bottom: 1px solid #D8D8D8;
+	font: 14px "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+dd{
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	font: 12px "微软雅黑";
+	text-align: center;
+	line-height: 30px;
+	color: #333333;
+	border-bottom: 1px dashed #D8D8D8;
+	/*padding: 0 10px;*/
+}
+.divt{
+	width: 30%;
+	height: auto;
+	float: right;
+	text-align: center;
+}
+.divt>span{
+	display: block;
+	font: 12px "微软雅黑";
+	margin-bottom: 10px;
+}
+.tu1{
+	width: 100%;
+	height: 490px;
+	float: right;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.divt>.tu1>img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+/*底部*/
+.btm{
+	width: 100%;
+	height: 170px;
+	margin-top: 30px;
+	background: #F5F5F5;
+	overflow: hidden;
+}
+.lx-box{
+	width: 140px;
+	height: 30px;
+	margin: 40px auto;
+	margin-bottom: 20px;
+}
+.lx-sbox{
+	width: 30px;
+	height: 30px;
+	margin: 0 8px;
+	float: left;
+}
+#ICP{
+	width: 300px;
+	height: 25px;
+	margin:0 auto;
+	font-size: 12px;
+	color: #62A8EA;
+}
+#ICP span{
+	float: left;
+	margin-top: 3px;
+	padding: 0 5px;
+}
+.jinghui{
+	width: 20px;
+	height: 20px;
+	background: url(jinghui20-20.png);
+	float: left;
+}
+.location{
+	width:470px;
+	height: 60px;
+	margin: 0 auto;
+	font-size: 12px;
+	color:#AAAAAA ;
+	text-align: center;
+	line-height: 20px;
+}
+.addcol{
+	color:#16b0dc;
+}
